@@ -8,4 +8,4 @@ Check out our [User Manual](https://github.com/schowdh9umd/INST377-Final-Project
 
 Check out our [Developer Manual](https://github.com/schowdh9umd/INST377-Final-Project/blob/main/docs/developer_manual.md)
 
-Jay Jean-Baptiste, Collen Wang, Sabrina Chowhury
+Jay Jean-Baptiste, Collen Wang, Sabrina Chowdhury
