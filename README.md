@@ -7,3 +7,5 @@ Our target browers are web browsers like Chrome and Safari but our application s
 Check out our [User Manual](https://github.com/schowdh9umd/INST377-Final-Project/blob/main/docs/user_manual.md)
 
 Check out our [Developer Manual](https://github.com/schowdh9umd/INST377-Final-Project/blob/main/docs/developer_manual.md)
+
+Jay Jean-Baptiste, Collen Wang, Sabrina Chowhury
