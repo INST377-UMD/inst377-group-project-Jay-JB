@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <title>INST377 Final Assignment Home</title>
+        <script src="data.js" defer></script>
+        <style>           
+            #navbar {
+                background-color: #00ffc8; 
+            }
+    
+            #navbar ul li {
+                list-style-type: none; 
+                display: inline-block;
+                text-align: center;
+                width: 30%;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+    
+            #navbar li:hover {
+                background-color: #009dff;
+                color: black; 
+            }
+
+            .dive {
+                background-color: lightgrey;
+                width: 300px;
+                border: 15px solid green;
+                padding: 50px;
+                margin: 20px;
+            }
+            
+            .button1 {
+                color: #0ebac5;
+                text-decoration: none;
+                font-size: 1em;
+                font-family: calibri;
+                border-radius: 2px;
+                border: 2px solid #0ebac5;
+                padding: .1rem .2rem;
+                box-shadow: 0.5px 0.5px 0 0 #0ebac5, 1px 1.5px 0 0 #0ebac5, 1.5px 2px 0 0 #0ebac5, 2px 2.5px 0 0 #0ebac5, 2.5px 3px 0 0 #0ebac5;
+                position: relative;
+                inset: 0;
+                cursor: pointer;
+                transform: rotateX(0), rotateY(0) rotateZ(0);
+                display: inline-block;
+                outline: 2px dashed transparent;
+                transition: all 600ms ease;
+            }
+        
+            .button1:hover {
+                inset: 3px 0 2.5px 0;
+                transform: rotateX(3deg) rotateY(2deg) rotateZ(0.15deg);
+                box-shadow: none;
+            }
+            
+            .button1 {
+                appearance: none;
+                backface-visibility: hidden;
+                background-color: #27ae60;
+                border-radius: 8px;
+                border-style: none;
+                box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+                box-sizing: border-box;
+                color: #fff;
+                cursor: pointer;
+                display: inline-block;
+                font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                letter-spacing: normal;
+                line-height: 1.5;
+                outline: none;
+                overflow: hidden;
+                padding: 13px 20px;
+                position: relative;
+                text-align: center;
+                text-decoration: none;
+                transform: translate3d(0, 0, 0);
+                transition: all .3s;
+                user-select: none;
+                -webkit-user-select: none;
+                touch-action: manipulation;
+                vertical-align: top;
+                white-space: nowrap;
+            }
+            
+            .button1:hover {
+                background-color: #1e8449;
+                opacity: 1;
+                transform: translateY(0);
+                transition-duration: .35s;
+            }
+            
+            .button1:active {
+                transform: translateY(2px);
+                transition-duration: .35s;
+            }
+            
+            .button1:hover {
+                box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+            }
+            
+            </style>
+    </head>
+    
+    <body style = "background-color:rgb(191, 118, 255)">
+        <header>
+            <h1 style = "text-align: center;">Home Page</h1>
+        </header>
+        
+        <nav id = "navbar">
+            <ul>
+                <li> <a href = "index.html">Home</a></li>
+                <li> <a href = "about.html">About</a></li>
+            </ul>
+        </nav>
+        <div id="para">
+            <h1>Random Data generator</h1>
+            <p>Here are our buttons that will generate random data for you</p>
+        </div>
+        <button class="button1">User Data</button>
+        <div id="UserInfo" class="dive"></div>
+        <button class="button1">Bank Data</button>
+        <div id="BankInfo" class="dive"></div>
+        <button class="button1">Address Data</button>
+        <div id="AddressInfo" class="dive"></div>
+        <button class="button1">Appliance Data</button>
+        <div id="ApplianceInfo" class="dive"></div>
+        <button class="button1">Beer Data</button>
+        <div id="BeerInfo" class="dive"></div>
+        <button class="button1">Blood Data</button>
+        <div id="BloodInfo" class="dive"></div>
+        <button class="button1">Credit Data</button>
+        <div id="CreditInfo" class="dive"></div>
+
+        <footer style = "background-color: #00ffc8;"> Colleen Wang, Jay Jean-Baptiste, Sabrina Chowdhury</footer>
+    </body>
+</html>
